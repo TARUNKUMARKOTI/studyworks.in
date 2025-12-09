@@ -43,8 +43,9 @@ export const Footer: React.FC = () => {
 
               {/* YouTube */}
               <a href="https://www.youtube.com/@studyworksprojects" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="text-academic-400 hover:text-academic-900 transition-colors transform hover:scale-110 duration-200">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                  <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
                 </svg>
               </a>
             </div>
@@ -54,9 +55,9 @@ export const Footer: React.FC = () => {
           <div className="col-span-1 md:pl-12">
             <h4 className="text-base font-semibold text-academic-900 uppercase tracking-widest mb-6">Quick Links</h4>
             <ul className="space-y-4 text-lg text-academic-600">
-              <li><Link to="/" className="hover:text-academic-900 transition-colors hover:translate-x-1 inline-block transform duration-200">Home</Link></li>
-              <li><Link to="/about" className="hover:text-academic-900 transition-colors hover:translate-x-1 inline-block transform duration-200">About</Link></li>
-              <li><Link to="/contact" className="hover:text-academic-900 transition-colors hover:translate-x-1 inline-block transform duration-200">Contact</Link></li>
+              <li><Link to="/" className="hover:text-academic-900 transition-colors duration-200">Home</Link></li>
+              <li><Link to="/about" className="hover:text-academic-900 transition-colors duration-200">About</Link></li>
+              <li><Link to="/contact" className="hover:text-academic-900 transition-colors duration-200">Contact</Link></li>
             </ul>
           </div>
 
