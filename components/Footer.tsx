@@ -9,7 +9,9 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
           {/* Company Info & Social */}
           <div className="col-span-1">
-            <h3 className="text-2xl font-medium text-academic-900 mb-6">Studyworks</h3>
+            <h3 className="text-2xl font-medium text-academic-900 mb-6" style={{ fontFamily: "'Days One', sans-serif", letterSpacing: '0.1em' }}>
+              Studyworks
+            </h3>
             <p className="text-lg text-academic-600 leading-relaxed mb-8">
               Academic project development and support across multiple engineering and technology domains.
             </p>
@@ -93,7 +95,7 @@ export const Footer: React.FC = () => {
         {/* Bottom Line */}
         <div className="border-t border-academic-200 pt-10 text-center">
           <p className="text-base text-academic-500">
-            &copy; {new Date().getFullYear()} Studyworks. All rights reserved.
+            &copy; {new Date().getFullYear()} <span style={{ fontFamily: "'Days One', sans-serif", letterSpacing: '0.1em' }}>Studyworks</span>. All rights reserved.
           </p>
         </div>
       </div>
